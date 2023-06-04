@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+.heading{
+    font-size: 23px;
+}
+.btn-success:hover{
+    background-color: brown;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 10px 10px 40px yellow;}
+    to{box-shadow: 10px 10px 40px red;}
+}
